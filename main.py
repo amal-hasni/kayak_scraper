@@ -30,7 +30,7 @@ max_price = 950
 
 # Personal information
 username = 'YOUR_NAME'
-email = 'SENDER_EMAIL@hotmail.fr'
+my_email = 'SENDER_EMAIL@hotmail.fr'
 recipient_email = 'RECIPIENT_MAIL@domain.com'
 password = 'YOUR_PASSWORD'
 
@@ -132,6 +132,6 @@ filename = get_best_deals(browser, browser_wait)
 message = get_message(user=username, screenshot_path=filename, table=table)
 
 # Sending the email
-with Hotmail(email, password) as email:
+with Hotmail(my_email, password) as email:
     email.send(message, recipient_email,
                subject=f"[Kayak] Best flight deals on the {datetime.now():%Y-%m-%d}")
