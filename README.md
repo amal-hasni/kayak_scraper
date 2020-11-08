@@ -1,4 +1,4 @@
-"# kayak_scraper" 
+# Kayak Scraper
 
 This is a repository for a script made to scrap the booking website Kayak using python’s library Selenium and gathere the information in a markdown format to be sent automatically  via email.
 
