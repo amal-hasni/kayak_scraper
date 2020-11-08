@@ -1,0 +1,13 @@
+close_alert_xpath: '//*[contains(@id, "dialog-content")]/*[contains(@id, "dialog-close")]'
+
+progressbar_xpath: '//div[contains(@id, "-progress-bar")]/*/div[contains(@id, "bar")]'
+
+price_toggle_xpath: '//*[contains(@id, "price-title")]'
+price_slider_xpath: '//*[contains(@id, "price-price-slider-sliderWidget-handle-0")]'
+max_price_xpath: '//*[contains(@id, "price-price-slider-rangeLabel")]/span[@class="max"]'
+min_price_xpath: '//*[contains(@id, "price-price-slider-rangeLabel")]/span[@class="min"]'
+
+flexible_modifications_xpath: '//input[contains(@id, "flex-options") and contains(@id, "cancel-check")]'
+flexible_modifications_click_xpath: '//div[contains(@id, "flex-options") and contains(@id, "cancel-check-icon")]'
+flexible_refund_xpath: '//input[contains(@id, "flex-options") and contains(@id, "refund-check")]'
+flexible_refund_click_xpath: '//div[contains(@id, "flex-options") and contains(@id, "refund-check-icon")]'
