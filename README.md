@@ -11,3 +11,6 @@ Make sure to install the required packages by running:
 ```bash
 pip install -r requirements.txt
 ```
+
+You can also find a Medium article explaining everything about this project in depth in this link:
+[Kayak Medium Article](https://medium.com/analytics-vidhya/what-if-selenium-could-do-a-better-job-than-your-travel-agency-5e4e74de08b0)
